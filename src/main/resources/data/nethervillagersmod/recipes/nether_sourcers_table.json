@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "EOE",
+    "OOO"
+  ],
+  "key": {
+    "S": {
+      "item": "nethervillagersmod:diamond_shard"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "nethervillagersmod:nether_sourcers_table"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "nethervillagersmod:nether_sourcers_table_poi",
+      "required": false
+    },
+    {
+      "id": "nethervillagersmod:nether_gatherers_table_poi",
+      "required": false
+    },
+    {
+      "id": "nethervillagersmod:nether_looters_table_poi",
+      "required": false
+    }
+  ]
+}

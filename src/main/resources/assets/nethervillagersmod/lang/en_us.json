@@ -1,0 +1,14 @@
+{
+  "item.nethervillagersmod.diamond_shard": "Diamond Shard",
+  "item.nethervillagersmod.gold_shard": "Gold Shard",
+  "item.nethervillagersmod.emerald_shard": "Emerald Shard",
+  "item.nethervillagersmod.copper_shard": "Copper Shard",
+
+  "block.nethervillagersmod.nether_sourcers_table": "Nether Sourcer's Table",
+  "block.nethervillagersmod.nether_gatherers_table": "Nether Gatherer's Table",
+  "block.nethervillagersmod.nether_looters_table": "Nether Looter's Table",
+
+  "entity.minecraft.villager.nethervillagersmod.nether_sourcer": "Nether Sourcer",
+  "entity.minecraft.villager.nethervillagersmod.nether_gatherer": "Nether Gatherer",
+  "entity.minecraft.villager.nethervillagersmod.nether_looter": "Nether Looter"
+}
