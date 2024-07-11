@@ -95,61 +95,59 @@ public class ModEvents {
 
             // Level 1
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.NETHERRACK, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.NETHER_BRICKS, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.RED_NETHER_BRICKS, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.BASALT, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.BLACKSTONE, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.CRIMSON_STEM, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.WARPED_STEM, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.CRIMSON_NYLIUM, 32),
                     5, 5, 0.05f));
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.WARPED_NYLIUM, 32),
                     5, 5, 0.05f));
 
             // Level 2
             trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.SOUL_SAND, 16),
                     5, 20, 0.05f));
             trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.SOUL_SOIL, 16),
                     5, 20, 0.05f));
             trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
+                    new ItemStack(Items.EMERALD, 4),
                     new ItemStack(Items.MAGMA_BLOCK, 16),
                     5, 20, 0.05f));
-
-            // Level 3
-            trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(ModItems.EMERALD_SHARD.get(), 1),
-                    new ItemStack(Items.QUARTZ_BLOCK, 8),
-                    5, 50, 0.05f));
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 4),
+                    new ItemStack(Items.QUARTZ_BLOCK, 16),
+                    5, 20, 0.05f));
         }
         else if (event.getType() == ModVillagers.NETHER_LOOTER.get())
         {
