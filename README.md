@@ -1,5 +1,5 @@
 
-# Nether Villagers Mod - v1.0.0
+# Nether Villagers Mod - v0.2.0
 A mod which enables players to obtain nether-exclusive items through villager trades in the Overworld.
 Can be used when access to the Nether is disallowed due to an incompatibility, bug, or anything of the sort.
 
